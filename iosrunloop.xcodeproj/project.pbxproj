@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5CB5CA41E96792200642091 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB5CA31E96792200642091 /* AnotherViewController.m */; };
 		C5F4E98E1E950DE000BB108A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4E98D1E950DE000BB108A /* main.m */; };
 		C5F4E9911E950DE000BB108A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4E9901E950DE000BB108A /* AppDelegate.m */; };
 		C5F4E9941E950DE000BB108A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4E9931E950DE000BB108A /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5CB5CA21E96792200642091 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		C5CB5CA31E96792200642091 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		C5F4E9891E950DE000BB108A /* iosrunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosrunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F4E98D1E950DE000BB108A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5F4E98F1E950DE000BB108A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				C5F4E9921E950DE000BB108A /* ViewController.h */,
 				C5F4E9931E950DE000BB108A /* ViewController.m */,
 				C5F4E9951E950DE000BB108A /* Main.storyboard */,
+				C5CB5CA21E96792200642091 /* AnotherViewController.h */,
+				C5CB5CA31E96792200642091 /* AnotherViewController.m */,
 				C5F4E9981E950DE000BB108A /* Assets.xcassets */,
 				C5F4E99A1E950DE000BB108A /* LaunchScreen.storyboard */,
 				C5F4E99D1E950DE000BB108A /* Info.plist */,
@@ -153,6 +158,7 @@
 			files = (
 				C5F4E9941E950DE000BB108A /* ViewController.m in Sources */,
 				C5F4E9911E950DE000BB108A /* AppDelegate.m in Sources */,
+				C5CB5CA41E96792200642091 /* AnotherViewController.m in Sources */,
 				C5F4E98E1E950DE000BB108A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -263,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,6 +320,7 @@
 				C5F4E9A21E950DE000BB108A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

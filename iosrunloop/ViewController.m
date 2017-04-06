@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSTimer *timer = [NSTimer timerWithTimeInterval:5.0 target:self selector:@selector(run) userInfo:nil repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+//    NSTimer *timer = [NSTimer timerWithTimeInterval:5.0 target:self selector:@selector(run) userInfo:nil repeats:YES];
+//    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
 }
 
 ///-----------------------------------------------------------------------------
